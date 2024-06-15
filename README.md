@@ -7,8 +7,18 @@ This is a web application that fetches issues from a GitLab repository using the
 - Allows creating new issues and adding comments to existing issues from the client-side
 - Supports closing and reopening issues from the client-side
 
-##
+## Application flow
 ![alt text](b3-requirements.jpg)
+
+## Production Deployment
+The application is designed to be deployed in a production environment with the following requirements:
+- Nginx as a reverse proxy
+- HTTPS enabled
+- Server listening only on ports 80, 443, and 22 (SSH)
+- Node.js application running through PM2 in production mode
+
+
+## Screenshot
 ![alt text](b3.jpg)
 
 ##
