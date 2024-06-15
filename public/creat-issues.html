@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Issue</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+    <nav>
+        <img src="img/logo.jpg" alt="Issue Tracker" id="navbar-logo">
+        <a href="index.html">Home</a>
+        <a href="create-issue.html">New Issue</a>
+    </nav>
+    <form id="newIssueForm">
+        <input type="text" id="newIssueTitle" placeholder="Issue Title" required>
+        <button type="submit">Create Issue</button>
+    </form>
+    <script src="/js/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
